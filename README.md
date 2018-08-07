@@ -7,7 +7,8 @@ This script is used to convert product markdown for action configurations into J
 
 Example of use:
 
-node index.js \*"#### ACTION CONFIGURATION: 
+node index.js \*
+"#### ACTION CONFIGURATION: 
 * **Process**:
 	* Description: Input the process ID, which can be found in the URL after “/build/”.
 The ID will have a similar format as: 0048761a-ca19-1637-ae4e-fdd69c7fcc13
@@ -32,7 +33,8 @@ The ID will have a similar format as: 0048761a-ca19-1637-ae4e-fdd69c7fcc13
  	* Example: month
 	* Type/Allowed Values: never, hour, day, weekday, week, month, year
 	* optional
-"\*
+"
+\*
 
 
 Will output: 
