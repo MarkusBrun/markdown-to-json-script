@@ -1,0 +1,11 @@
+{
+  "name": "action-param-script",
+  "version": "1.0.0",
+  "description": "Turns markdown into action JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "convert"
+  },
+  "author": "markusbrun",
+  "license": "ISC"
+}
